@@ -1,0 +1,50 @@
+section{
+    flex:1;
+    width:100%;
+    overflow: hidden;
+}
+.iscroll{
+    width:100%;
+    height:100%;
+}
+.banner{
+    width:100%;
+}
+.banner img{
+    width:100%;
+}
+.nav{
+    background: #eee;
+    width:100%;
+    height:80px;
+    display: flex;
+    align-items: center;
+}
+.nav dl{
+    flex:1;
+}
+.nav dl dt,.nav dl dd{
+    width:100%;
+    text-align: center;
+}
+.nav dl:nth-child(1) dt i.icon{
+    background: skyblue;
+}
+.nav dl dt i.icon{
+    color:#fff;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+.nav dl:nth-child(2) dt i.icon{
+    background: purple;
+}
+.nav dl:nth-child(3) dt i.icon{
+    background: orange
+}
+.nav dl:nth-child(4) dt i.icon{
+    background: limegreen
+}

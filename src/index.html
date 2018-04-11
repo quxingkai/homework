@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="font/iconfont.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
 </head>
 <body>
     <div class="wrap">
@@ -16,6 +18,46 @@
             <span>申请0首付购物车</span>
             <span><i class="icon iconfont icon-gengduo"></i></span>
         </header>
+        <section>
+            <div class="iscroll">
+                <div class="swiper-container banner">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/header1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/header1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/header1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="nav">
+                    <dl>
+                        <dt><i class="icon iconfont icon-bianji1"></i></dt>
+                        <dd>申请条件</dd>
+                    </dl>
+                    <dl>
+                        <dt><i class="icon iconfont icon-quanbudingdan-01"></i></dt>
+                        <dd>货款材料</dd>
+                    </dl>
+                    <dl>
+                        <dt><i class="icon iconfont icon-whatsapp"></i></dt>
+                        <dd>贷款流程</dd>
+                    </dl>
+                    <dl>
+                        <dt><i class="icon iconfont icon-riqixuanze"></i></dt>
+                        <dd>分期计算器</dd>
+                    </dl>
+                </div>
+
+            </div>
+        </section>
     </div>
+    <script src="js/swiper-3.4.2.min.js"></script>
+    <script>
+        new Swiper('.banner',{});
+    </script>
 </body>
 </html>
