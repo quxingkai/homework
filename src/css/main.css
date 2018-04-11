@@ -1,0 +1,21 @@
+.main{
+    padding:0 5%;
+    width:100%;
+}
+.main li{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+    width:100%;
+    height:36px;
+    line-height: 36px;
+    display: flex;
+}
+.main li input{
+    font-size: 14px;
+    padding-left:10px;
+    flex: 1;
+    border:0;
+}
+.main li .dio{
+    background: red;
+}
